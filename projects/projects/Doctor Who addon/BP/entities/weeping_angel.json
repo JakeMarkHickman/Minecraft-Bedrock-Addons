@@ -1,0 +1,356 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "who_craft:weeping_angel",
+			"spawn_category": "monster",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"properties": {
+				"who_craft:weeping_angel_state": {
+					"type": "enum",
+					"values": [
+						"neutral",
+						"hostile_observed",
+						"hostile_unobserved"
+					],
+					"default": "neutral",
+					"client_sync": true
+				}
+			}
+		},
+		"component_groups": {
+			"who_craft:mobile": {
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0.0
+				},
+				"minecraft:pushable": {
+					"is_pushable": true,
+					"is_pushable_by_piston": true
+				},
+				"minecraft:behavior.float": {
+					"priority": 0
+				}
+			},
+			"who_craft:immobile": {
+				"minecraft:movement": {
+					"value": 0.0
+				},
+				"minecraft:knockback_resistance": {
+					"value": 1.0
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:body_rotation_blocked": {}
+			},
+			"who_craft:neutral": {
+				"minecraft:looked_at": {
+					"search_radius": 50.0,
+					"look_at_locations": [
+						{
+							"location": "head"
+						},
+						{
+							"location": "body"
+						},
+						{
+							"location": "feet",
+							"vertical_offset": 0.5
+						}
+					],
+					"set_target": "once_and_keep_scanning",
+					"find_players_only": true,
+					"looked_at_cooldown": 0.01,
+					"field_of_view": 120,
+					"scale_fov_by_distance": false,
+					"line_of_sight_obstruction_type": "collision_for_camera",
+					"looked_at_event": {
+						"event": "who_craft:become_hostile",
+						"filter": "self"
+					},
+					"filters": {
+						"test": "actor_health",
+						"subject": "other",
+						"operator": ">",
+						"value": 0
+					}
+				},
+				"minecraft:ambient_sound_interval": {},
+				"minecraft:behavior.random_stroll": {
+					"priority": 2,
+					"speed_multiplier": 0.3,
+					"interval": 2
+				}
+			},
+			"who_craft:hostile": {
+				"minecraft:looked_at": {
+					"search_radius": 50,
+					"look_at_locations": [
+						{
+							"location": "head"
+						},
+						{
+							"location": "body"
+						},
+						{
+							"location": "feet",
+							"vertical_offset": 0.5
+						}
+					],
+					"set_target": "never",
+					"find_players_only": true,
+					"looked_at_cooldown": 0.01,
+					"field_of_view": 120,
+					"scale_fov_by_distance": false,
+					"line_of_sight_obstruction_type": "collision_for_camera",
+					"looked_at_event": {
+						"event": "who_craft:observed",
+						"filter": "self"
+					},
+					"not_looked_at_event": {
+						"event": "who_craft:unobserved",
+						"filter": "self"
+					},
+					"filters": {
+						"none_of": [
+							{
+								"test": "actor_health",
+								"subject": "target",
+								"value": 0
+							}
+						]
+					}
+				}
+			},
+			"who_craft:hostile_unobserved": {
+				"minecraft:behavior.melee_box_attack": {
+					"priority": 2,
+					"cooldown_time": 1.0
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"mob",
+					"monster",
+					"weeping_angel"
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "void",
+						"deals_damage": "yes"
+					},
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:health": {
+				"max": 1,
+				"value": 1
+			},
+			"minecraft:attack": {
+				"damage": 7
+			},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:movement.basic": {},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.0625,
+				"jump_prevented_value": 0.5625
+			},
+			"minecraft:follow_range": {
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"any_of": [
+										{
+											"test": "enum_property",
+											"domain": "who_craft:weeping_angel_state",
+											"value": "hostile_observed"
+										},
+										{
+											"test": "enum_property",
+											"domain": "who_craft:weeping_angel_state",
+											"value": "hostile_unobserved"
+										}
+									]
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_target",
+											"value": false
+										},
+										{
+											"test": "actor_health",
+											"subject": "target",
+											"value": 0
+										},
+										{
+											"test": "target_distance",
+											"operator": ">",
+											"value": 24
+										}
+									]
+								}
+							]
+						},
+						"event": "who_craft:become_neutral"
+					}
+				]
+			},
+			"minecraft:nameable": {},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_path_over_lava": false,
+				"avoid_damage_blocks": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"who_craft:neutral",
+						"who_craft:mobile"
+					]
+				}
+			},
+			"who_craft:become_hostile": {
+				"filters": {
+					"test": "enum_property",
+					"domain": "who_craft:weeping_angel_state",
+					"value": "neutral"
+				},
+				"add": {
+					"component_groups": [
+						"who_craft:hostile",
+						"who_craft:immobile"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"who_craft:neutral",
+						"who_craft:hostile_unobserved",
+						"who_craft:mobile"
+					]
+				},
+				"set_property": {
+					"who_craft:weeping_angel_state": "hostile_observed"
+				},
+				"emit_vibration": {
+					"vibration": "entity_act"
+				},
+				"play_sound": {
+					"sound": "activate"
+				}
+			},
+			"who_craft:become_neutral": {
+				"filters": {
+					"test": "enum_property",
+					"domain": "who_craft:weeping_angel_state",
+					"operator": "not",
+					"value": "neutral"
+				},
+				"add": {
+					"component_groups": [
+						"who_craft:neutral",
+						"who_craft:mobile"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"who_craft:hostile",
+						"who_craft:hostile_unobserved",
+						"who_craft:immobile"
+					]
+				},
+				"set_property": {
+					"who_craft:weeping_angel_state": "neutral"
+				},
+				"emit_vibration": {
+					"vibration": "entity_act"
+				},
+				"play_sound": {
+					"sound": "deactivate"
+				},
+				"reset_target": {}
+			},
+			"who_craft:unobserved": {
+				"filters": {
+					"test": "enum_property",
+					"domain": "who_craft:weeping_angel_state",
+					"value": "hostile_observed"
+				},
+				"add": {
+					"component_groups": [
+						"who_craft:hostile",
+						"who_craft:hostile_unobserved",
+						"who_craft:mobile"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"who_craft:neutral",
+						"who_craft:immobile"
+					]
+				},
+				"set_property": {
+					"who_craft:weeping_angel_state": "hostile_unobserved"
+				},
+				"emit_vibration": {
+					"vibration": "entity_act"
+				},
+				"play_sound": {
+					"sound": "unfreeze"
+				}
+			},
+			"who_craft:observed": {
+				"filters": {
+					"test": "enum_property",
+					"domain": "who_craft:weeping_angel_state",
+					"value": "hostile_unobserved"
+				},
+				"add": {
+					"component_groups": [
+						"who_craft:hostile",
+						"who_craft:immobile"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"who_craft:neutral",
+						"who_craft:hostile_unobserved",
+						"who_craft:mobile"
+					]
+				},
+				"set_property": {
+					"who_craft:weeping_angel_state": "hostile_observed"
+				},
+				"emit_vibration": {
+					"vibration": "entity_act"
+				},
+				"play_sound": {
+					"sound": "freeze"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "who_craft:cyber_chip"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"i": {
+				"item": "minecraft:iron_ingot"
+			},
+			"m": {
+				"item": "minecraft:resin_clump"
+			},
+			"r": {
+				"item": "minecraft:redstone"
+			},
+			"c": {
+				"item": "minecraft:copper_ingot"
+			},
+			"g": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"pattern": [
+			" i ",
+			"mrm",
+			"cgc"
+		],
+		"result": {
+			"item": "who_craft:cyberchip",
+			"count": 1
+		},
+		"unlock": [
+			{
+				"item": "who_craft:cyberchip"
+			},
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"item": "minecraft:resin_clump"
+			},
+			{
+				"item": "minecraft:redstone"
+			},
+			{
+				"item": "minecraft:copper_ingot"
+			},
+			{
+				"item": "minecraft:gold_ingot"
+			}
+		]
+	}
+}

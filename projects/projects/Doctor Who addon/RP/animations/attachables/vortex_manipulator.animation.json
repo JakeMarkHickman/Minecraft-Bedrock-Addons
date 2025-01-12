@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vortex_manipulator.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"hand": {
+					"rotation": [0, 90, -90],
+					"position": [0, 22, -1]
+				}
+			}
+		},
+		"animation.vortex_manipulator.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"hand": {
+					"rotation": [90, 85, 0],
+					"position": [-0.5, 22, -1.5]
+				}
+			}
+		}
+	}
+}

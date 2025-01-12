@@ -1,0 +1,36 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "who_craft:vortex_manipulator",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/items/models/vortex_manipulator",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.vortex_manipulator"
+			},
+			"animations": {
+				"third_person_hold": "animation.vortex_manipulator.third_person_hold",
+				"first_person_hold": "animation.vortex_manipulator.first_person_hold"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"third_person_hold": "!c.is_first_person"
+					},
+					{
+						"first_person_hold": "c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.item_default"
+			]
+		}
+	}
+}

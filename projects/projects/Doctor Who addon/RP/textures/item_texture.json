@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "Doctor Who addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"vortex_manipulator": {
+			"textures": "textures/items/vortex_manipulator"
+		},
+		"cyberchip": {
+			"textures": "textures/items/cyberchip"
+		},
+		"chameleon_arch": {
+			"textures": "textures/items/chameleon_arch"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+item.who_craft:vortex_manipulator=Vortex Manipulator
+item.who_craft:vortex_manipulator.name=Vortex Manipulator
+item.who_craft:cyberchip=Cyber Chip
+item.who_craft:chameleon_arch=Chameleon Arch
+item.spawn_egg.entity.who_craft:mondassian_cyberman.name=Spawn Mondassian Cyberman
+entity.who_craft:mondassian_cyberman.name=Mondassian Cyberman
+item.spawn_egg.entity.who_craft:weeping_angel.name=Spawn Weeping Angel
+entity.who_craft:weeping_angel.name=Weeping Angel

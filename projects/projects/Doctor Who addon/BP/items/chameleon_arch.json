@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "who_craft:chameleon_arch",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "chameleon_arch",
+			"minecraft:glint": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:rarity": "epic",
+			"minecraft:hover_text_color": "light_purple",
+			"minecraft:cooldown": {
+				"category": "Chameleon Arch",
+				"duration": 60
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 2
+			},
+			"minecraft:custom_components": [
+				"who_craft:chameleon_arch"
+			]
+		}
+	}
+}
