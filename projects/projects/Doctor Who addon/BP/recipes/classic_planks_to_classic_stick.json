@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "who_craft:classic_planks_to_classic_stick"
+		},
+		"tags": [
+			"crafting_table",
+			"classic_crafting_table"
+		],
+		"key": {
+			"p": {
+				"item": "who_craft:classic_planks"
+			}
+		},
+		"pattern": [
+			"p",
+			"p"
+		],
+		"result": {
+			"item": "who_craft:classic_stick",
+			"count": 4
+		}
+	}
+}

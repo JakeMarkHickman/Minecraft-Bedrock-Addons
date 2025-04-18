@@ -7,17 +7,17 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/weeping_angel"
+				"default": "textures/mrmycotic/who_craft/entity/weeping_angel"
 			},
 			"geometry": {
-				"default": "geometry.weeping_angel"
+				"default": "geometry.mrmycotic.who_craft.weeping_angel"
 			},
 			"render_controllers": [
-				"controller.render.weeping_angel"
+				"controller.render.mrmycotic.who_craft.weeping_angel"
 			],
 			"spawn_egg": {
-				"base_color": "#000000",
-				"overlay_color": "#FFFFFF"
+				"base_color": "#7c7c7c",
+				"overlay_color": "#8c8c8c"
 			}
 		}
 	}

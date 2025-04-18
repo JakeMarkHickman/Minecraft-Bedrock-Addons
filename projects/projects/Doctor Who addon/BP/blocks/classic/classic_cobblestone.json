@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "who_craft:classic_cobblestone",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:stone": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 10
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:map_color": "#707070"
+		}
+	}
+}

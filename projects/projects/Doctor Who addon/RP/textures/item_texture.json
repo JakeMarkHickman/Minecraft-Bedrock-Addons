@@ -2,14 +2,20 @@
 	"resource_pack_name": "Doctor Who addon",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"vortex_manipulator": {
-			"textures": "textures/items/vortex_manipulator"
+		"mrmycotic_who_craft_vortex_manipulator": {
+			"textures": "textures/mrmycotic/who_craft/items/vortex_manipulator"
 		},
-		"cyberchip": {
-			"textures": "textures/items/cyberchip"
+		"mrmycotic_who_craft_cyberchip": {
+			"textures": "textures/mrmycotic/who_craft/items/cyberchip"
 		},
-		"chameleon_arch": {
-			"textures": "textures/items/chameleon_arch"
+		"mrmycotic_who_craft_chameleon_arch": {
+			"textures": "textures/mrmycotic/who_craft/items/chameleon_arch"
+		},
+		"mrmycotic_who_craft_classic_stick": {
+			"textures": "textures/mrmycotic/who_craft/items/classic/classic_stick"
+		},
+		"mrmycotic_who_craft_classic_wooden_pickaxe": {
+			"textures": "textures/mrmycotic/who_craft/items/classic/classic_wooden_pickaxe"
 		}
 	}
 }

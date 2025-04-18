@@ -8,7 +8,7 @@
 			}
 		},
 		"components": {
-			"minecraft:icon": "chameleon_arch",
+			"minecraft:icon": "mrmycotic_who_craft_chameleon_arch",
 			"minecraft:glint": true,
 			"minecraft:max_stack_size": 1,
 			"minecraft:rarity": "epic",

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "who_craft:classic_gold_block",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:iron_tier_destructible": {},
+			"tag:minecraft:metal": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 15
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:map_color": "#FAEE4D"
+		}
+	}
+}

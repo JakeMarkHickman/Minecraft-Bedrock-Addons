@@ -65,7 +65,7 @@
 					],
 					"set_target": "once_and_keep_scanning",
 					"find_players_only": true,
-					"looked_at_cooldown": 0.01,
+					"looked_at_cooldown": 0,
 					"field_of_view": 120,
 					"scale_fov_by_distance": false,
 					"line_of_sight_obstruction_type": "collision_for_camera",
@@ -104,7 +104,7 @@
 					],
 					"set_target": "never",
 					"find_players_only": true,
-					"looked_at_cooldown": 0.01,
+					"looked_at_cooldown": 0,
 					"field_of_view": 120,
 					"scale_fov_by_distance": false,
 					"line_of_sight_obstruction_type": "collision_for_camera",
@@ -129,8 +129,8 @@
 			},
 			"who_craft:hostile_unobserved": {
 				"minecraft:behavior.melee_box_attack": {
-					"priority": 2,
-					"cooldown_time": 1.0
+					"priority": 1,
+					"cooldown_time": 0.1
 				}
 			}
 		},
@@ -150,7 +150,50 @@
 						"deals_damage": "yes"
 					},
 					{
-						"cause": "all",
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"value": "minecraft:wooden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"value": "minecraft:stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"value": "minecraft:golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"value": "minecraft:iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"value": "minecraft:diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"value": "minecraft:netherite_pickaxe"
+									},
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "minecraft:is_pickaxe"
+									}
+								]
+							}
+						},
+						"deals_damage": "yes"
+					},
+					{
 						"deals_damage": "no"
 					}
 				]

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.vortex_manipulator.third_person_hold": {
+		"animation.mrmycotic.who_craft.vortex_manipulator.third_person_hold": {
 			"loop": true,
 			"bones": {
 				"hand": {
@@ -10,7 +10,7 @@
 				}
 			}
 		},
-		"animation.vortex_manipulator.first_person_hold": {
+		"animation.mrmycotic.who_craft.vortex_manipulator.first_person_hold": {
 			"loop": true,
 			"bones": {
 				"hand": {

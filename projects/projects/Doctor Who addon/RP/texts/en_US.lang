@@ -2,7 +2,21 @@ item.who_craft:vortex_manipulator=Vortex Manipulator
 item.who_craft:vortex_manipulator.name=Vortex Manipulator
 item.who_craft:cyberchip=Cyber Chip
 item.who_craft:chameleon_arch=Chameleon Arch
-item.spawn_egg.entity.who_craft:mondassian_cyberman.name=Spawn Mondassian Cyberman
-entity.who_craft:mondassian_cyberman.name=Mondassian Cyberman
+
 item.spawn_egg.entity.who_craft:weeping_angel.name=Spawn Weeping Angel
+item.who_craft:weeping_angel_spawn_egg.name=Weeping Angel Spawn Egg
 entity.who_craft:weeping_angel.name=Weeping Angel
+
+tile.who_craft:cave_game_stone.name=Cave Game Stone
+tile.who_craft:cave_game_grass.name=Cave Game Grass
+tile.who_craft:cave_game_planks.name=Cave Game Planks
+tile.who_craft:classic_grass.name=Classic Grass
+tile.who_craft:classic_dirt.name=Classic Dirt
+tile.who_craft:classic_stone.name=Classic Stone
+tile.who_craft:classic_cobblestone.name=Classic Cobblestone
+tile.who_craft:classic_gold_block.name=Classic Gold Block
+tile.who_craft:classic_planks.name=Classic Planks
+tile.who_craft:classic_log.name=Classic Log
+tile.who_craft:classic_crafting_table.name=Classic Crafting Table
+item.who_craft:classic_stick=Classic Stick
+item.who_craft:classic_wooden_pickaxe=Classic Wooden Pickaxe

@@ -3,5 +3,57 @@
 	"padding": 8,
 	"resource_pack_name": "Doctor Who addon",
 	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"mrmycotic_who_craft_cave_game_stone": {
+			"textures": "textures/mrmycotic/who_craft/blocks/cave_game/cave_game_stone"
+		},
+		"mrmycotic_who_craft_cave_game_grass": {
+			"textures": "textures/mrmycotic/who_craft/blocks/cave_game/cave_game_grass"
+		},
+		"mrmycotic_who_craft_cave_game_planks": {
+			"textures": "textures/mrmycotic/who_craft/blocks/cave_game/cave_game_planks"
+		},
+		"mrmycotic_who_craft_classic_grass": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_grass"
+		},
+		"mrmycotic_who_craft_classic_grass_side": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_grass_side"
+		},
+		"mrmycotic_who_craft_classic_dirt": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_dirt"
+		},
+		"mrmycotic_who_craft_classic_stone": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_stone"
+		},
+		"mrmycotic_who_craft_classic_cobblestone": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_cobblestone"
+		},
+		"mrmycotic_who_craft_classic_gold_block_top": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_top"
+		},
+		"mrmycotic_who_craft_classic_gold_block_side": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_side"
+		},
+		"mrmycotic_who_craft_classic_gold_block_bottom": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_bottom"
+		},
+		"mrmycotic_who_craft_classic_planks": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_planks"
+		},
+		"mrmycotic_who_craft_classic_log_top": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_log_top"
+		},
+		"mrmycotic_who_craft_classic_log_side": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_log_side"
+		},
+		"mrmycotic_who_craft_classic_crafting_table_top": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_top"
+		},
+		"mrmycotic_who_craft_classic_crafting_table_ns": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_side_ns"
+		},
+		"mrmycotic_who_craft_classic_crafting_table_ew": {
+			"textures": "textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_side_ew"
+		}
+	}
 }

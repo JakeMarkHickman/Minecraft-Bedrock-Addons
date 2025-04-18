@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "who_craft:classic_log_to_classic_planks"
+		},
+		"tags": [
+			"crafting_table",
+			"classic_crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "who_craft:classic_log"
+			}
+		],
+		"result": {
+			"item": "who_craft:classic_planks",
+			"count": 4
+		}
+	}
+}

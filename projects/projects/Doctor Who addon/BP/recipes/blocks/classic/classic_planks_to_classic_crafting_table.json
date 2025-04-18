@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "who_craft:classic_planks_to_classic_crafting_table"
+		},
+		"tags": [
+			"crafting_table",
+			"classic_crafting_table"
+		],
+		"key": {
+			"p": {
+				"item": "who_craft:classic_planks"
+			}
+		},
+		"pattern": [
+			"pp",
+			"pp"
+		],
+		"result": {
+			"item": "who_craft:classic_crafting_table"
+		}
+	}
+}

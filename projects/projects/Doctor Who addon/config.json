@@ -5,10 +5,10 @@
 	"authors": [
 		"MrMycotic"
 	],
-	"targetVersion": "1.21.50",
+	"targetVersion": "1.21.80",
 	"description": "By MrMycotic",
 	"experimentalGameplay": {
-		"creationOfCustomBiomes": false,
+		"creationOfCustomBiomes": true,
 		"upcomingCreatorFeatures": false,
 		"enableGameTestFramework": false,
 		"focusTargetCamera": false,

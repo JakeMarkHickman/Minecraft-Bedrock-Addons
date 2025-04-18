@@ -3,5 +3,68 @@
 		1,
 		1,
 		0
-	]
+	],
+	"who_craft:cave_game_stone": {
+		"sound": "stone",
+		"textures": "mrmycotic_who_craft_cave_game_stone"
+	},
+	"who_craft:cave_game_grass": {
+		"sound": "grass",
+		"textures": "mrmycotic_who_craft_cave_game_grass"
+	},
+	"who_craft:cave_game_planks": {
+		"sound": "wood",
+		"textures": "mrmycotic_who_craft_cave_game_planks"
+	},
+	"who_craft:classic_grass": {
+		"sound": "grass",
+		"textures": {
+			"up": "mrmycotic_who_craft_classic_grass",
+			"side": "mrmycotic_who_craft_classic_grass_side",
+			"down": "mrmycotic_who_craft_classic_dirt"
+		}
+	},
+	"who_craft:classic_dirt": {
+		"sound": "gravel",
+		"textures": "mrmycotic_who_craft_classic_dirt"
+	},
+	"who_craft:classic_stone": {
+		"sound": "stone",
+		"textures": "mrmycotic_who_craft_classic_stone"
+	},
+	"who_craft:classic_cobblestone": {
+		"sound": "stone",
+		"textures": "mrmycotic_who_craft_classic_cobblestone"
+	},
+	"who_craft:classic_gold_block": {
+		"sound": "metal",
+		"textures": {
+			"up": "mrmycotic_who_craft_classic_gold_block_top",
+			"side": "mrmycotic_who_craft_classic_gold_block_side",
+			"down": "mrmycotic_who_craft_classic_gold_block_bottom"
+		}
+	},
+	"who_craft:classic_planks": {
+		"sound": "wood",
+		"textures": "mrmycotic_who_craft_classic_planks"
+	},
+	"who_craft:classic_log": {
+		"sound": "wood",
+		"textures": {
+			"up": "mrmycotic_who_craft_classic_log_top",
+			"side": "mrmycotic_who_craft_classic_log_side",
+			"down": "mrmycotic_who_craft_classic_log_top"
+		}
+	},
+	"who_craft:classic_crafting_table": {
+		"sound": "wood",
+		"textures": {
+			"up": "mrmycotic_who_craft_classic_crafting_table_top",
+			"north": "mrmycotic_who_craft_classic_crafting_table_ns",
+			"south": "mrmycotic_who_craft_classic_crafting_table_ns",
+			"east": "mrmycotic_who_craft_classic_crafting_table_ew",
+			"west": "mrmycotic_who_craft_classic_crafting_table_ew",
+			"down": "mrmycotic_who_craft_classic_planks"
+		}
+	}
 }
