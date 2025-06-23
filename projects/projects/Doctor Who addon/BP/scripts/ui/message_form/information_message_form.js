@@ -62,7 +62,7 @@ function getMoonPhase() {
 }
 
 function getDay() {
-    let numDay = world.getDay();
+    let numDay = getCorrectedDay();
 
     let day = "";
 
@@ -99,8 +99,25 @@ function getDay() {
     return day;
 }
 
+function getCorrectedTimeOfDay() {
+    return (world.getTimeOfDay() + 6000);
+}
+
+function getCorrectedDay() {
+    const ticks = getCorrectedTimeOfDay();
+    const baseDay = world.getDay();
+
+    return ticks < 24000 ? baseDay - 1 : baseDay;
+}
+
 function getTime() {
-    return world.getTimeOfDay()
+    let ticks = getCorrectedTimeOfDay() % 24000;
+
+    let totalMinutes = Math.floor((ticks / 24000) * 1440); // 1440 minutes in a day
+    let hours = Math.floor(totalMinutes / 60);
+    let minutes = totalMinutes % 60;
+
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
 }
 
 function formatText(arrayOfText) {
@@ -127,7 +144,6 @@ function createInformationUi(player, entityToUse) {
     let ui = new MessageFormData()
         .title("Information")
         .body(formatText(messageText))
-        .button1("Close");
 
     ui.show(player);
 }

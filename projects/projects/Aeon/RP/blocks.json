@@ -1,0 +1,6 @@
+{
+	"aeon:test_clock": {
+		"sound": "stone",
+		"textures": "aeon_test_clock"
+	}
+}

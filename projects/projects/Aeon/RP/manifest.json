@@ -14,24 +14,24 @@
 		}
 	},
 	"header": {
-		"name": "Who Craft",
-		"description": "By MrMycotic",
+		"name": "Aeon",
+		"description": "A time keeping addon",
 		"min_engine_version": [
 			1,
 			21,
-			0
+			90
 		],
-		"uuid": "e64747a3-e57c-4b61-b922-25c10006bcbe",
+		"uuid": "cdf0ee03-5693-414f-97da-10bba3a03ea1",
 		"version": [
 			1,
 			0,
-			8
+			0
 		]
 	},
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "bf7dbd0c-a0cd-4dd5-8687-f396d0d2672d",
+			"uuid": "a366caf7-c4e8-42f6-a058-b1c942e80c83",
 			"version": [
 				1,
 				0,

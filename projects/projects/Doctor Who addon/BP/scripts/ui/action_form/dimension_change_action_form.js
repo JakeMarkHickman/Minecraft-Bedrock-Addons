@@ -56,7 +56,7 @@ function showDimensionSelector(player, entityToEffect, dimensionBlacklist, isVor
         dimensionSelectorUi.button(str);
     }
 
-    dimensionSelectorUi.show(player).then((result: ActionFormResponse) => {
+    dimensionSelectorUi.show(player).then(result => {
         if (!result.canceled) {
             if (isVortexManipulator) {
                 entityToEffect.runCommand("effect @s blindness 3 355 false");

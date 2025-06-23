@@ -11,7 +11,7 @@ function showVortexManipulatorUi(player) {
         .button("Waypoints")
         .button("Location selection")
 
-    ui.show(player).then((result: ActionFormResponse) => {
+    ui.show(player).then(result => {
         if (!result.canceled) {
             switch (result.selection) {
                 case 0:

@@ -2,7 +2,7 @@ import { TicksPerSecond, EntityHealthComponent, EntityComponentTypes } from "@mi
 
 export const events = {
     onCompleteUse: ({ source }) => {
-        let health = source.getComponent(EntityComponentTypes.Health) as EntityHealthComponent;
+        //let health = source.getComponent(EntityComponentTypes.Health) as EntityHealthComponent;
         if (source.hasTag("time_lord")) {
             source.removeTag("time_lord");
             console.warn("Player is no longer a Time Lord");
