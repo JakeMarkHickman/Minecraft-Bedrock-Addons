@@ -9,7 +9,9 @@
 			}
 		},
 		"components": {
-			"minecraft:custom_components": []
+			"minecraft:custom_components": [
+				"aeon:time"
+			]
 		}
 	}
 }

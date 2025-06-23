@@ -1,18 +1,5 @@
 {
 	"format_version": 2,
-	"metadata": {
-		"authors": [
-			"MrMycotic"
-		],
-		"generated_with": {
-			"bridge": [
-				"2.7.47"
-			],
-			"dash": [
-				"0.11.7"
-			]
-		}
-	},
 	"header": {
 		"name": "Aeon",
 		"description": "A time keeping addon",

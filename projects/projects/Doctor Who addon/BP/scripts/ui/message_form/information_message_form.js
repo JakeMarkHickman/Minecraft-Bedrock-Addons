@@ -107,7 +107,7 @@ function getCorrectedDay() {
     const ticks = getCorrectedTimeOfDay();
     const baseDay = world.getDay();
 
-    return ticks < 24000 ? baseDay - 1 : baseDay;
+    return ticks < 24000 ? baseDay : baseDay + 1;
 }
 
 function getTime() {
