@@ -1,6 +1,6 @@
 import { TicksPerSecond, EntityHealthComponent, EntityComponentTypes } from "@minecraft/server";
 
-export const events = {
+export const chameleonArch = {
     onCompleteUse: ({ source }) => {
         //let health = source.getComponent(EntityComponentTypes.Health) as EntityHealthComponent;
         if (source.hasTag("time_lord")) {

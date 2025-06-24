@@ -1,5 +1,5 @@
 import { ActionFormData, ActionFormResponse } from "@minecraft/server-ui"
-import { createWaypointCreateUi } from "ui/modal_form/waypoint_create_modal_form"
+import { createWaypointCreateUi } from "MrMycotic/WhoCraft/ui/modal_form/waypoint_create_modal_form"
 
 function createWaypointSelectUi(player) {
     let ui = new ActionFormData()

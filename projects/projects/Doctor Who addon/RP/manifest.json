@@ -3,15 +3,7 @@
 	"metadata": {
 		"authors": [
 			"MrMycotic"
-		],
-		"generated_with": {
-			"bridge": [
-				"2.7.47"
-			],
-			"dash": [
-				"0.11.7"
-			]
-		}
+		]
 	},
 	"header": {
 		"name": "Who Craft",

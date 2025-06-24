@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "aeon:test_watch",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "aeon_test_watch"
+		}
+	}
+}

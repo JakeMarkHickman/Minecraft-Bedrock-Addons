@@ -1,6 +1,7 @@
 import { world } from "@minecraft/server";
 import { MessageFormResponse, MessageFormData } from "@minecraft/server-ui";
-import { showVortexManipulatorUi } from "ui/action_form/vortex_manipulator_action_form"
+import { showVortexManipulatorUi } from "MrMycotic/WhoCraft/ui/action_form/vortex_manipulator_action_form"
+import { GetCorrectedTimeOfDay, ConvertTo12Hour, GetDayOfWeek, GetCorrectedDay, GetMonth, GetDayOfMonth, GetYear } from "Dependencies/MrMycoticUtilities/Includes/Time"
 
 function getCurrentDimension(entityToUse) {
     let dimension = entityToUse.dimension.id.split(":").pop(); // remove anything before : (minecraft:nether -> nether)
@@ -61,54 +62,6 @@ function getMoonPhase() {
     return moonPhase;
 }
 
-function getDay() {
-    let numDay = getCorrectedDay();
-
-    let day = "";
-
-    switch (numDay % 7) {
-        case 0:
-            day = "Sunday";
-            break;
-
-        case 1:
-            day = "Monday";
-            break;
-
-        case 2:
-            day = "Tuesday";
-            break;
-
-        case 3:
-            day = "Wednesday";
-            break;
-
-        case 4:
-            day = "Thursday";
-            break;
-
-        case 5:
-            day = "Friday";
-            break;
-
-        case 6:
-            day = "Saturday";
-            break;
-    }
-
-    return day;
-}
-
-function getCorrectedTimeOfDay() {
-    return (world.getTimeOfDay() + 6000);
-}
-
-function getCorrectedDay() {
-    const ticks = getCorrectedTimeOfDay();
-    const baseDay = world.getDay();
-
-    return ticks < 24000 ? baseDay : baseDay + 1;
-}
 
 function getTime() {
     let ticks = getCorrectedTimeOfDay() % 24000;
@@ -134,10 +87,12 @@ function createInformationUi(player, entityToUse) {
 
     let messageText = []
 
+    let day = GetCorrectedDay();
+
     messageText[0] = "Location: " + getCurrentLocation(entityToUse);
     messageText[1] = "Dimension: " + getCurrentDimension(entityToUse);
-    messageText[2] = "Day: " + getDay();
-    messageText[3] = "Time: " + getTime();
+    messageText[2] = "Day: " + GetDayOfWeek(day) + " " + GetDayOfMonth(day) + " " + GetMonth(day) + " " + GetYear(day);
+    messageText[3] = "Time: " + ConvertTo12Hour(GetCorrectedTimeOfDay());
     messageText[4] = "Moon Phase: " + getMoonPhase();
 
 

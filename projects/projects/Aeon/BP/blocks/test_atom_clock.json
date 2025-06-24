@@ -2,7 +2,7 @@
 	"format_version": "1.21.50",
 	"minecraft:block": {
 		"description": {
-			"identifier": "aeon:test_clock",
+			"identifier": "aeon:test_atom_clock",
 			"menu_category": {
 				"category": "items",
 				"group": "items"
@@ -10,7 +10,7 @@
 		},
 		"components": {
 			"minecraft:custom_components": [
-				"aeon:clock"
+				"aeon:atom_clock"
 			]
 		}
 	}

@@ -2,6 +2,15 @@
 	"texture_data": {
 		"aeon_test_clock": {
 			"textures": "textures/blocks/test_clock"
+		},
+		"aeon_test_calendar": {
+			"textures": "textures/blocks/test_calendar"
+		},
+		"aeon_test_atom_clock": {
+			"textures": "textures/blocks/test_atom_clock"
+		},
+		"aeon_oak_pendulum_wall_clock": {
+			"textures": "textures/blocks/oak_pendulum_wall_clock"
 		}
 	}
 }

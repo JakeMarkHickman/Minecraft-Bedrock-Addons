@@ -1,6 +1,19 @@
 {
+	"format_version": "1.21.10",
 	"aeon:test_clock": {
 		"sound": "stone",
 		"textures": "aeon_test_clock"
+	},
+	"aeon:test_calendar": {
+		"sound": "stone",
+		"textures": "aeon_test_calendar"
+	},
+	"aeon:test_atom_clock": {
+		"sound": "stone",
+		"textures": "aeon_test_atom_clock"
+	},
+	"aeon:oak_pendulum_wall_clock": {
+		"sound": "wood",
+		"textures": "aeon_oak_pendulum_wall_clock"
 	}
 }

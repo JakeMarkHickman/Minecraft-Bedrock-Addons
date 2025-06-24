@@ -1,7 +1,7 @@
 import { ActionFormData, ActionFormResponse } from "@minecraft/server-ui"
-import { createInformationUi } from "ui/message_form/information_message_form"
-import { createWaypointSelectUi } from "ui/action_form/waypoint_select_action_form"
-import { showLocationSelectionUi } from "ui/modal_form/location_selection_modal_form"
+import { createInformationUi } from "MrMycotic/WhoCraft/ui/message_form/information_message_form"
+import { createWaypointSelectUi } from "MrMycotic/WhoCraft/ui/action_form/waypoint_select_action_form"
+import { showLocationSelectionUi } from "MrMycotic/WhoCraft/ui/modal_form/location_selection_modal_form"
 
 
 function showVortexManipulatorUi(player) {

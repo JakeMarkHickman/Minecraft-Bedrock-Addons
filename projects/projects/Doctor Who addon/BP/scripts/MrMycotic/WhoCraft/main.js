@@ -1,12 +1,10 @@
 import { world, system } from '@minecraft/server'
-import { registerItemComponents, registerBlockComponents } from "custom_components/component_registry"
+import { RegisterItemComponent } from "Dependencies/MrMycoticUtilities/Includes/ComponentRegistry"
+import { vortexManipulator } from "./custom_components/item_components/vortex_manipulator"
+import { chameleonArch } from "./custom_components/item_components/chameleon_arch"
 
-world.beforeEvents.worldInitialize.subscribe(
-    ({ itemComponentRegistry, blockComponentRegistry }) => {
-        registerItemComponents(itemComponentRegistry);
-        registerBlockComponents(blockComponentRegistry);
-    }
-)
+RegisterItemComponent("who_craft:vortex_manipulator", vortexManipulator);
+RegisterItemComponent("who_craft:chameleon_arch", chameleonArch);
 
 world.afterEvents.entityHurt.subscribe((event) => {
     const { hurtEntity, damageSource } = event;

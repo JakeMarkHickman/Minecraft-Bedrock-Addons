@@ -16,6 +16,15 @@ export const RegisterBlockComponent = (identifier, system) => {
     BlockSystems.push(system);
 }
 
+export const RegisterComponent = (identifier, system) => {
+    ItemIdentifiers.push(identifier)
+    ItemSystems.push(system);
+
+    BlockIdentifiers.push(identifier)
+    BlockSystems.push(system);
+}
+
+
 function registerItemComponents(registry) {
     for (let i = 0; i < ItemIdentifiers.length; i++) {
         registry.registerCustomComponent(ItemIdentifiers[i], ItemSystems[i]);
