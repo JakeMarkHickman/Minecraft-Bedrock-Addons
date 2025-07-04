@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "aeon:iron_digital_alarm_clock"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"i": {
+				"item": "iron_ingot"
+			},
+			"r": {
+				"item": "redstone"
+			},
+			"c": {
+				"item": "clock"
+			}
+		},
+		"pattern": [
+			"iii",
+			"rcr",
+			"iii"
+		],
+		"result": {
+			"item": "aeon:iron_digital_alarm_clock"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"MrMycotic"
+		]
+	},
+	"header": {
+		"name": "Inversion",
+		"description": "",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "73255259-fbb9-4d8c-9fc0-4723cf6d65c5",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "af7437e7-99ad-4626-934a-0f460c5f702e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.inverted_pig.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [
+						0,
+						4,
+						4
+					],
+					"scale": 2
+				}
+			}
+		},
+		"animation.inverted_pig.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.inverted_pig.setup.v1.0": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"90.0 - this",
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

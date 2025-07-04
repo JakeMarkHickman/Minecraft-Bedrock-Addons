@@ -1,13 +1,5 @@
 {
 	"format_version": "1.21.10",
-	"aeon:test_clock": {
-		"sound": "stone",
-		"textures": "aeon_test_clock"
-	},
-	"aeon:test_calendar": {
-		"sound": "stone",
-		"textures": "aeon_test_calendar"
-	},
 	"aeon:test_atom_clock": {
 		"sound": "stone",
 		"textures": "aeon_test_atom_clock"
@@ -15,5 +7,13 @@
 	"aeon:oak_pendulum_wall_clock": {
 		"sound": "wood",
 		"textures": "aeon_oak_pendulum_wall_clock"
+	},
+	"aeon:iron_digital_alarm_clock": {
+		"sound": "iron",
+		"textures": "aeon_iron_alarm_clock"
+	},
+	"aeon:white_paper_desk_calendar": {
+		"sound": "itemframe",
+		"textures": "aeon_white_paper_desk_calendar"
 	}
 }

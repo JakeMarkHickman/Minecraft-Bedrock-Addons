@@ -1,0 +1,7 @@
+{
+	"texture_data": {
+		"inversion_inverted_portal_block": {
+			"textures": "textures/blocks/inverted_portal"
+		}
+	}
+}

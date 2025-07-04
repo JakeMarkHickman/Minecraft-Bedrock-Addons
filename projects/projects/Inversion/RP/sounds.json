@@ -1,0 +1,32 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"inversion:inverted_pig": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.inverted_pig.say",
+					"hurt": "mob.inverted_pig.say",
+					"death": "mob.inverted_pig.death",
+					"step": {
+						"sound": "mob.inverted_pig.step",
+						"volume": 0.15,
+						"pitch": 1
+					},
+					"boost": {
+						"sound": "mob.inverted_pig.boost",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death.to.zombie": {
+						"sound": "mob.inverted_pig.death",
+						"volume": 2
+					}
+				}
+			}
+		}
+	}
+}

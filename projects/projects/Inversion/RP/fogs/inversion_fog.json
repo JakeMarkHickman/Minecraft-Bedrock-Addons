@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "inversion:inversion_fog"
+		},
+		"distance": {
+			"air": {
+				"fog_color": "#260340",
+				"render_distance_type": "fixed",
+				"fog_start": 2.0,
+				"fog_end": 10.0
+			},
+			"water": {
+				"fog_color": "#02032b",
+				"render_distance_type": "fixed",
+				"fog_start": 1.5,
+				"fog_end": 5.0
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"texture_data": {
+		"inversion_inverter": {
+			"textures": "textures/items/inverter"
+		},
+		"inversion_inverted_portal": {
+			"textures": "textures/items/inverted_portal"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "inversion:inverted_pig",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "pig"
+			},
+			"textures": {
+				"default": "textures/entity/inverted_pig/inverted_pig"
+			},
+			"geometry": {
+				"default": "geometry.inverted_pig"
+			},
+			"animations": {
+				"setup": "animation.inverted_pig.setup",
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target"
+				]
+			},
+			"render_controllers": [
+				"controller.render.inverted"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

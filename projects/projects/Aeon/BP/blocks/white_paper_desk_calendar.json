@@ -1,8 +1,8 @@
 {
-	"format_version": "1.21.50",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
-			"identifier": "aeon:oak_pendulum_wall_clock",
+			"identifier": "aeon:white_paper_desk_calendar",
 			"menu_category": {
 				"category": "items",
 				"group": "items"
@@ -17,38 +17,38 @@
 			}
 		},
 		"components": {
-			"minecraft:geometry": "geometry.pendulum_wall_clock",
+			"minecraft:geometry": "geometry.desk_calendar",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "aeon_oak_pendulum_wall_clock",
+					"texture": "aeon_white_paper_desk_calendar",
 					"render_method": "opaque"
 				}
 			},
 			"minecraft:collision_box": {
 				"origin": [
-					-6,
+					-5,
 					0,
-					1
+					-2.5
 				],
 				"size": [
-					12,
-					16,
-					7
+					10,
+					5.5,
+					5
 				]
 			},
 			"minecraft:custom_components": [
-				"aeon:analog"
+				"aeon:calendar"
 			],
 			"minecraft:selection_box": {
 				"origin": [
-					-6,
+					-5,
 					0,
-					1
+					-2.5
 				],
 				"size": [
-					12,
-					16,
-					7
+					10,
+					5.5,
+					5
 				]
 			}
 		},

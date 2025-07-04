@@ -1,5 +1,5 @@
-tile.aeon:test_clock.name=Test Clock
 item.aeon:test_watch=Test Watch
-tile.aeon:test_calendar.name=Test Calendar
 tile.aeon:test_atom_clock.name=Test Atom Clock
 tile.aeon:oak_pendulum_wall_clock.name=Oak Pendulum Wall Clock
+tile.aeon:iron_digital_alarm_clock.name=Iron Digital Alarm Clock
+tile.aeon:white_paper_desk_calendar.name=White Paper Desk Calendar

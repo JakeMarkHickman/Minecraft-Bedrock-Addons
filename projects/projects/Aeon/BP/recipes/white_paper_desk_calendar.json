@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "aeon:white_paper_desk_calendar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"s": {
+				"item": "stick"
+			},
+			"p": {
+				"item": "paper"
+			}
+		},
+		"pattern": [
+			"ss",
+			"pp",
+			"pp"
+		],
+		"result": {
+			"item": "aeon:white_paper_desk_calendar"
+		}
+	}
+}

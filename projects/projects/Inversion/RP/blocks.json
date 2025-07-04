@@ -1,0 +1,6 @@
+{
+	"inversion:inverted_portal_block": {
+		"sound": "stone",
+		"textures": "inversion_inverted_portal_block"
+	}
+}

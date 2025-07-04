@@ -1,0 +1,6 @@
+item.inversion:inverter=Inverter
+item.inversion:inverted_portal=Inverted Portal
+tile.inversion:inverted_portal_block_bottom.name=Inverted Portal
+tile.inversion:inverted_portal_block_top.name=Inverted Portal
+item.spawn_egg.entity.inversion:inverted_pig.name=Spawn Inverted Pig
+entity.inversion:inverted_pig.name=Inverted Pig
