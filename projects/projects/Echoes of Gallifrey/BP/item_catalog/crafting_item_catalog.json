@@ -1,0 +1,46 @@
+{
+    "format_version": "1.21.120",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "construction",
+                "groups": []
+            },
+            {
+                "category_name": "equipment",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "echos_of_gallifrey:sonic_screwdriver_mark_i",
+                            "name": "echos_of_gallifrey:itemGroup.name.sonic_screwdriver"
+                        },
+                        "items": [
+                            "echos_of_gallifrey:sonic_screwdriver_mark_i",
+                            "echos_of_gallifrey:sonic_screwdriver_mark_ii"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": []
+            },
+            {
+                "category_name": "nature",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "echos_of_gallifrey:cave_game_grass",
+                            "name": "echos_of_gallifrey:itemGroup.name.cave_game"
+                        },
+                        "items": [
+                            "echos_of_gallifrey:cave_game_grass",
+                            "echos_of_gallifrey:cave_game_cobblestone",
+                            "echos_of_gallifrey:cave_game_planks"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

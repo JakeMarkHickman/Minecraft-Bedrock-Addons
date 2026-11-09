@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "who_craft:weeping_angel",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/mrmycotic/who_craft/entity/weeping_angel"
+			},
+			"geometry": {
+				"default": "geometry.mrmycotic.who_craft.weeping_angel"
+			},
+			"render_controllers": [
+				"controller.render.mrmycotic.who_craft.weeping_angel"
+			],
+			"spawn_egg": {
+				"base_color": "#7c7c7c",
+				"overlay_color": "#8c8c8c"
+			}
+		}
+	}
+}

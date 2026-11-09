@@ -1,0 +1,18 @@
+{
+	"resource_pack_name": "Echoes of Gallifrey",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"echos_of_gallifrey_sonic_screwdriver_mark_i": {
+			"textures": "textures/items/mrmycotic/echos_of_gallifrey/sonic_screwdrivers/sonic_screwdriver_mark_i"
+		},
+		"echos_of_gallifrey_sonic_screwdriver_mark_ii": {
+			"textures": "textures/items/sonic_screwdriver_mark_ii"
+		},
+		"echos_of_gallifrey_vortex_manipulator": {
+			"textures": "textures/items/vortex_manipulator"
+		},
+		"echos_of_gallifrey_tardis_key": {
+			"textures": "textures/items/tardis_key"
+		}
+	}
+}

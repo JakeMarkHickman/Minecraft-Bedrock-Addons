@@ -1,0 +1,44 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "echos_of_gallifrey:tardis",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "pig"
+			},
+			"textures": {
+				"default": "textures/entity/tardis/tardis",
+				"saddled": "textures/entity/tardis/tardis_saddle"
+			},
+			"geometry": {
+				"default": "geometry.tardis"
+			},
+			"animations": {
+				"setup": "animation.tardis.setup",
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.tardis.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.tardis"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

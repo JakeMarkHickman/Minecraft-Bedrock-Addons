@@ -1,0 +1,16 @@
+pack.name=Echoes of Gallifrey RP
+pack.description=A Doctor Who addon
+
+echos_of_gallifrey:itemGroup.name.cave_game=Cave Game
+echos_of_gallifrey:itemGroup.name.sonic_screwdriver=Sonic Screwdrivers
+
+tile.echos_of_gallifrey:cave_game_grass.name=Cave Game Grass
+item.echos_of_gallifrey:sonic_screwdriver_mark_i=Sonic Screwdriver MK I
+tile.echos_of_gallifrey:cave_game_cobblestone.name=Cave Game Cobblestone
+tile.echos_of_gallifrey:cave_game_planks.name=Cave Game Planks
+item.echos_of_gallifrey:sonic_screwdriver_mark_ii=Sonic Screwdriver MK II
+item.echos_of_gallifrey:vortex_manipulator=Vortex Manipulator
+item.echos_of_gallifrey:tardis_key=TARDIS Key
+item.spawn_egg.entity.echos_of_gallifrey:tardis.name=Spawn TARDIS
+entity.echos_of_gallifrey:tardis.name=TARDIS
+tile.echos_of_gallifrey:tardis_exit_doors.name=TARDIS EXIT DOORS

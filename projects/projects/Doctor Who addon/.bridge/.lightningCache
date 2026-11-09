@@ -1,0 +1,114 @@
+$formatVersion: 1
+#manifest
+projects/Doctor Who addon/BP/manifest.json|1763056573
+#unknown
+projects/Doctor Who addon/BP/pack_icon.png|1761688953
+projects/Doctor Who addon/RP/pack_icon.png|1761688943
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_grass.texture_set.json|1762888832
+#mcstructure
+projects/Doctor Who addon/BP/structures/who_craft/tardis_template.mcstructure|1761688944
+#gameTest
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/main.js|1761691642
+projects/Doctor Who addon/BP/scripts/Dependencies/MrMycoticUtilities/Includes/ComponentRegistry.js|1761688952
+projects/Doctor Who addon/BP/scripts/Dependencies/MrMycoticUtilities/Includes/Time.js|1761688951
+projects/Doctor Who addon/BP/scripts/Dependencies/MrMycoticUtilities/Source/Components/ComponentRegistry.js|1761692841
+projects/Doctor Who addon/BP/scripts/Dependencies/MrMycoticUtilities/Source/Time/Calendrical.js|1761688950
+projects/Doctor Who addon/BP/scripts/Dependencies/MrMycoticUtilities/Source/Time/TimeConversions.js|1761688950
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/custom_components/item_components/chameleon_arch.js|1761688949
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/custom_components/item_components/vortex_manipulator.js|1761692945
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/ui/action_form/dimension_change_action_form.js|1761688947
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/ui/action_form/vortex_manipulator_action_form.js|1761688947
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/ui/action_form/waypoint_select_action_form.js|1761688946
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/ui/message_form/information_message_form.js|1761688946
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/ui/modal_form/location_selection_modal_form.js|1761693875
+projects/Doctor Who addon/BP/scripts/MrMycotic/WhoCraft/ui/modal_form/waypoint_create_modal_form.js|1761688945
+#entity
+projects/Doctor Who addon/BP/entities/weeping_angel.json|1761688954|{"identifier":["who_craft:weeping_angel"],"event":["minecraft:entity_spawned","who_craft:become_hostile","who_craft:become_neutral","who_craft:unobserved","who_craft:observed"],"eventReference":["who_craft:become_neutral"],"componentGroup":["who_craft:mobile","who_craft:immobile","who_craft:neutral","who_craft:hostile","who_craft:hostile_unobserved"],"family":["mob","monster","weeping_angel"],"property":["who_craft:weeping_angel_state"]}
+#item
+projects/Doctor Who addon/BP/items/chameleon_arch.json|1761688954|{"identifier":["who_craft:chameleon_arch"],"customComponent":["who_craft:chameleon_arch"],"tag":[]}
+projects/Doctor Who addon/BP/items/cyberchip.json|1761688953|{"identifier":["who_craft:cyberchip"],"tag":[]}
+projects/Doctor Who addon/BP/items/vortex_manipulator.json|1761691911|{"identifier":["who_craft:vortex_manipulator"],"tag":[]}
+projects/Doctor Who addon/BP/items/classic/classic_stick.json|1761688953|{"identifier":["who_craft:classic_stick"],"tag":[]}
+projects/Doctor Who addon/BP/items/classic/classic_wooden_pickaxe.json|1761688953|{"identifier":["who_craft:classic_wooden_pickaxe"],"tag":["minecraft:is_pickaxe","minecraft:wooden_tier"]}
+#recipe
+projects/Doctor Who addon/BP/recipes/classic_planks_to_classic_stick.json|1761688952|{"identifier":["who_craft:classic_planks_to_classic_stick"],"recipeTag":["crafting_table","classic_crafting_table"],"itemIdentifier":["who_craft:classic_stick","who_craft:classic_planks"]}
+projects/Doctor Who addon/BP/recipes/items/cyber_chip.json|1761688952|{"identifier":["who_craft:cyber_chip"],"recipeTag":["crafting_table"],"itemIdentifier":["who_craft:cyberchip","minecraft:iron_ingot","minecraft:resin_clump","minecraft:redstone","minecraft:copper_ingot","minecraft:gold_ingot"]}
+projects/Doctor Who addon/BP/recipes/blocks/classic/classic_log_to_classic_planks.json|1761688952|{"identifier":["who_craft:classic_log_to_classic_planks"],"recipeTag":["crafting_table","classic_crafting_table"],"itemIdentifier":["who_craft:classic_planks","who_craft:classic_log"]}
+projects/Doctor Who addon/BP/recipes/blocks/classic/classic_planks_to_classic_crafting_table.json|1761688952|{"identifier":["who_craft:classic_planks_to_classic_crafting_table"],"recipeTag":["crafting_table","classic_crafting_table"],"itemIdentifier":["who_craft:classic_crafting_table","who_craft:classic_planks"]}
+#spawnRule
+projects/Doctor Who addon/BP/spawn_rules/weeping_angel.spawn_rule.json|1761688944|{"identifier":["who_craft:weeping_angel"]}
+#block
+projects/Doctor Who addon/BP/blocks/cave_game/cave_game_grass.json|1761689905|{"identifier":["who_craft:cave_game_grass"],"tag":["minecraft:is_shovel_item_destructible","grass"]}
+projects/Doctor Who addon/BP/blocks/cave_game/cave_game_planks.json|1761688955|{"identifier":["who_craft:cave_game_planks"],"tag":["minecraft:is_axe_item_destructible","wood"]}
+projects/Doctor Who addon/BP/blocks/cave_game/cave_game_stone.json|1761688955|{"identifier":["who_craft:cave_game_stone"],"tag":["minecraft:is_pickaxe_item_destructible","minecraft:stone"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_cobblestone.json|1761688955|{"identifier":["who_craft:classic_cobblestone"],"tag":["minecraft:is_pickaxe_item_destructible","minecraft:stone"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_crafting_table.json|1761688955|{"identifier":["who_craft:classic_crafting_table"],"recipeTag":["classic_crafting_table"],"tag":["minecraft:is_axe_item_destructible","wood"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_dirt.json|1761688955|{"identifier":["who_craft:classic_dirt"],"tag":["minecraft:is_shovel_item_destructible","dirt"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_gold_block.json|1761688955|{"identifier":["who_craft:classic_gold_block"],"tag":["minecraft:is_pickaxe_item_destructible","minecraft:iron_tier_destructible","minecraft:metal"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_grass.json|1761688954|{"identifier":["who_craft:classic_grass"],"tag":["minecraft:is_shovel_item_destructible","grass"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_log.json|1761688954|{"identifier":["who_craft:classic_log"],"tag":["minecraft:is_axe_item_destructible","log"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_planks.json|1761688954|{"identifier":["who_craft:classic_planks"],"tag":["minecraft:is_axe_item_destructible","wood"]}
+projects/Doctor Who addon/BP/blocks/classic/classic_stone.json|1761688954|{"identifier":["who_craft:classic_stone"],"tag":["minecraft:is_pickaxe_item_destructible","minecraft:stone"],"lootTablePath":["projects/Doctor Who addon/BP/loot_tables/mrmycotic/who_craft/blocks/classic_stone.json"]}
+#lootTable
+projects/Doctor Who addon/BP/loot_tables/mrmycotic/who_craft/blocks/classic_stone.json|1761688953|{"lootTablePath":[]}
+#splashes
+projects/Doctor Who addon/RP/splashes.json|1761688942
+#langDef
+projects/Doctor Who addon/RP/texts/languages.json|1761688942
+#biomesClient
+projects/Doctor Who addon/RP/biomes_client.json|1761688944
+#clientBlock
+projects/Doctor Who addon/RP/blocks.json|1761688943|{"identifier":["who_craft:cave_game_stone","who_craft:cave_game_grass","who_craft:cave_game_planks","who_craft:classic_grass","who_craft:classic_dirt","who_craft:classic_stone","who_craft:classic_cobblestone","who_craft:classic_gold_block","who_craft:classic_planks","who_craft:classic_log","who_craft:classic_crafting_table"]}
+#clientManifest
+projects/Doctor Who addon/RP/manifest.json|1763056573|{"uuid":["e64747a3-e57c-4b61-b922-25c10006bcbe"]}
+#clientSound
+projects/Doctor Who addon/RP/sounds.json|1761688942
+#renderController
+projects/Doctor Who addon/RP/render_controllers/weeping_angel.json|1761688943|{"identifier":["controller.render.mrmycotic.who_craft.weeping_angel"]}
+#soundDefinition
+projects/Doctor Who addon/RP/sounds/sound_definitions.json|1761688942|{"identifier":[]}
+#clientLang
+projects/Doctor Who addon/RP/texts/en_US.lang|1761688942|{"actionText":[]}
+#flipbookTexture
+projects/Doctor Who addon/RP/textures/flipbook_textures.json|1761688942
+#clientAnimation
+projects/Doctor Who addon/RP/animations/attachables/vortex_manipulator.animation.json|1761688944|{"identifier":["animation.mrmycotic.who_craft.vortex_manipulator.third_person_hold","animation.mrmycotic.who_craft.vortex_manipulator.first_person_hold"]}
+#geometry
+projects/Doctor Who addon/RP/models/entity/vortex_manipulator.geo.json|1761688943|{"identifier":["geometry.mrmycotic.who_craft.vortex_manipulator"],"bone":["hand","watch","cover"]}
+projects/Doctor Who addon/RP/models/entity/weeping_angel.geo.json|1761688943|{"identifier":["geometry.mrmycotic.who_craft.weeping_angel"],"bone":["head","body","leftArm","rightArm","leftLeg","rightLeg"]}
+#texture
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/entity/weeping_angel.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/chameleon_arch.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/cyberchip.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/vortex_manipulator.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_grass.png|1761688941
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_planks.png|1761688941
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_cobblestone.png|1761688941
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_side_ew.png|1761688941
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_side_ns.png|1761688941
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_top.png|1761688941
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_dirt.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_bottom.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_side.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_top.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_grass.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_grass_side.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_log_side.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_log_top.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_planks.png|1761688940
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_stone.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/classic/classic_stick.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/classic/classic_wooden_pickaxe.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/models/vortex_manipulator.png|1761688939
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_grass_mer.png|1762888830
+projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_grass_height.png|1762888508
+#clientEntity
+projects/Doctor Who addon/RP/entity/weeping_angel.json|1761688943|{"identifier":["who_craft:weeping_angel"],"textureReference":["default"],"materialReference":["default"],"geometryReference":["default"],"materialIdentifier":["entity_alphatest"],"geometryIdentifier":["geometry.mrmycotic.who_craft.weeping_angel"],"renderControllerIdentifier":["controller.render.mrmycotic.who_craft.weeping_angel"],"texturePath":["projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/entity/weeping_angel.png"]}
+#itemTexture
+projects/Doctor Who addon/RP/textures/item_texture.json|1761688941|{"texture":["mrmycotic_who_craft_vortex_manipulator","mrmycotic_who_craft_cyberchip","mrmycotic_who_craft_chameleon_arch","mrmycotic_who_craft_classic_stick","mrmycotic_who_craft_classic_wooden_pickaxe"],"texturePath":["projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/vortex_manipulator.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/classic/classic_stick.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/cyberchip.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/chameleon_arch.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/classic/classic_wooden_pickaxe.png"]}
+#terrainTexture
+projects/Doctor Who addon/RP/textures/terrain_texture.json|1761688939|{"texture":["mrmycotic_who_craft_cave_game_stone","mrmycotic_who_craft_cave_game_grass","mrmycotic_who_craft_cave_game_planks","mrmycotic_who_craft_classic_grass","mrmycotic_who_craft_classic_grass_side","mrmycotic_who_craft_classic_dirt","mrmycotic_who_craft_classic_stone","mrmycotic_who_craft_classic_cobblestone","mrmycotic_who_craft_classic_gold_block_top","mrmycotic_who_craft_classic_gold_block_side","mrmycotic_who_craft_classic_gold_block_bottom","mrmycotic_who_craft_classic_planks","mrmycotic_who_craft_classic_log_top","mrmycotic_who_craft_classic_log_side","mrmycotic_who_craft_classic_crafting_table_top","mrmycotic_who_craft_classic_crafting_table_ns","mrmycotic_who_craft_classic_crafting_table_ew"],"texturePath":["projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_stone.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_grass.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/cave_game/cave_game_planks.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_stone.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_grass.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_cobblestone.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_top.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_side.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_grass_side.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_top.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_planks.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_gold_block_bottom.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_log_side.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_log_top.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_side_ew.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_crafting_table_side_ns.png","projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/blocks/classic/classic_dirt.png"]}
+#attachable
+projects/Doctor Who addon/RP/attachables/vortex_manipulator.json|1761688944|{"identifier":["who_craft:vortex_manipulator"],"animationReference":["third_person_hold","first_person_hold"],"textureReference":["default","enchanted"],"materialReference":["default","enchanted"],"geometryReference":["default"],"animationIdentifier":["animation.mrmycotic.who_craft.vortex_manipulator.third_person_hold","animation.mrmycotic.who_craft.vortex_manipulator.first_person_hold"],"materialIdentifier":["entity_alphatest","entity_alphatest_glint"],"geometryIdentifier":["geometry.mrmycotic.who_craft.vortex_manipulator"],"renderControllerIdentifier":["controller.render.item_default"],"texturePath":["projects/Doctor Who addon/RP/textures/mrmycotic/who_craft/items/models/vortex_manipulator.png"]}
+#bridgeConfig
+projects/Doctor Who addon/config.json|1782500684452

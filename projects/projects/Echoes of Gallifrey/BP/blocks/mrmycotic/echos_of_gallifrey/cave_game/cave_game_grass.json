@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.120",
+	"minecraft:block": {
+		"description": {
+			"identifier": "echos_of_gallifrey:cave_game_grass",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"tag:grass": {},
+			"tag:minecraft:is_shovel_item_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.9
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.6
+			},
+			"minecraft:map_color": "#9ac96a"
+		}
+	}
+}

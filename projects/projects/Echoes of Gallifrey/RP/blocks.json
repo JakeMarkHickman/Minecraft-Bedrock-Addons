@@ -1,0 +1,23 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"echos_of_gallifrey:cave_game_grass": {
+		"sound": "echos_of_gallifrey:classic_grass_block",
+		"textures": "echos_of_gallifrey_cave_game_grass"
+	},
+	"echos_of_gallifrey:cave_game_cobblestone": {
+		"sound": "stone",
+		"textures": "echos_of_gallifrey_cave_game_cobblestone"
+	},
+	"echos_of_gallifrey:cave_game_planks": {
+		"sound": "wood",
+		"textures": "echos_of_gallifrey_cave_game_planks"
+	},
+	"echos_of_gallifrey:tardis_exit_doors": {
+		"sound": "stone",
+		"textures": "echos_of_gallifrey_tardis_exit_doors"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sonic_screwdriver.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"hand": {
+					"rotation": [158.24955, 22.32924, 40.144],
+					"position": [-9, 26, -9]
+				}
+			}
+		},
+		"animation.sonic_screwdriver.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"hand": {
+					"rotation": [90, 0, 0],
+					"position": [0.35, 20, -3.75]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "who_craft:classic_stick",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "mrmycotic_who_craft_classic_stick",
+			"minecraft:fuel": {
+				"duration": 5
+			},
+			"minecraft:hand_equipped": true
+		}
+	}
+}

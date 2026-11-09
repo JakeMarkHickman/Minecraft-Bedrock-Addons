@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"MrMycotic"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.51"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Who Craft",
+		"description": "By MrMycotic",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "e64747a3-e57c-4b61-b922-25c10006bcbe",
+		"version": [
+			1,
+			0,
+			8
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "bf7dbd0c-a0cd-4dd5-8687-f396d0d2672d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

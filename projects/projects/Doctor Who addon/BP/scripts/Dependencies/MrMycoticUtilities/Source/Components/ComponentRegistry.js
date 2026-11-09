@@ -1,4 +1,4 @@
-import { world } from '@minecraft/server'
+import { system } from '@minecraft/server'
 
 export const ItemIdentifiers = [];
 export const ItemSystems = [];
@@ -37,7 +37,7 @@ function registerBlockComponents(registry) {
     }
 }
 
-world.beforeEvents.worldInitialize.subscribe(
+system.beforeEvents.startup.subscribe(
     ({ itemComponentRegistry, blockComponentRegistry }) => {
         registerItemComponents(itemComponentRegistry);
         registerBlockComponents(blockComponentRegistry);

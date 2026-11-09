@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "cave_game_planks",
+		"heightmap": "cave_game_planks_height"
+	}
+}

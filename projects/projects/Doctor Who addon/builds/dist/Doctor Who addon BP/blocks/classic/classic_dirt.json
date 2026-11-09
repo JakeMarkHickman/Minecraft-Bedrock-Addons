@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "who_craft:classic_dirt",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"tag:minecraft:is_shovel_item_destructible": {},
+			"tag:dirt": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.75
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.5
+			},
+			"minecraft:map_color": "#976D4D"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"product_type": "addon",
+		"authors": [
+			"MrMycotic"
+		]
+	},
+	"header": {
+		"name": "Echoes of Gallifrey",
+		"description": "Doctor who add-on",
+		"min_engine_version": [
+			1,
+			26,
+			10
+		],
+		"uuid": "8d94a09a-e2cb-4257-8ed7-62926e9a3a39",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "45e55f6a-1c12-4b65-83c5-430020f3461b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "Script Resources",
+			"entry": "scripts/MrMycotic/echos_of_gallifrey/main.js",
+			"uuid": "73fa5d62-3f60-4031-8023-815904ef67c8",
+			"version": [
+				0,
+				0,
+				1
+			],
+			"language": "javascript",
+			"type": "script"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3df762bd-b5ac-40e3-9f69-4c64c8b1dbb5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	]
+}

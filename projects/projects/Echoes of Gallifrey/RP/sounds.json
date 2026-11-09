@@ -1,0 +1,102 @@
+{
+	"block_sounds": {
+		"echos_of_gallifrey:classic_grass_block": {
+			"events": {
+				"break": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "echos_of_gallifrey:classic_grass.dig",
+					"volume": 0.7
+				},
+				"hit": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "echos_of_gallifrey:classic_grass.dig",
+					"volume": 0.7
+				},
+				"place": {
+					"pitch": [
+						0.8,
+						1
+					],
+					"sound": "echos_of_gallifrey:classic_grass.dig",
+					"volume": 0.7
+				}
+			}
+		}
+	},
+	"interactive_sounds": {
+		"block_sounds": {
+			"echos_of_gallifrey:classic_grass_block": {
+				"events": {
+					"fall": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "echos_of_gallifrey:classic_grass.dig",
+						"volume": 0.7
+					},
+					"jump": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "echos_of_gallifrey:classic_grass.dig",
+						"volume": 0.7
+					},
+					"land": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "echos_of_gallifrey:classic_grass.dig",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": [
+							0.8,
+							1
+						],
+						"sound": "echos_of_gallifrey:classic_grass.dig",
+						"volume": 0.7
+					}
+				}
+			}
+		}
+	},
+	"entity_sounds": {
+		"entities": {
+			"echos_of_gallifrey:tardis": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.tardis.say",
+					"hurt": "mob.tardis.say",
+					"death": "mob.tardis.death",
+					"step": {
+						"sound": "mob.tardis.step",
+						"volume": 0.15,
+						"pitch": 1
+					},
+					"boost": {
+						"sound": "mob.tardis.boost",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death.to.zombie": {
+						"sound": "mob.tardis.death",
+						"volume": 2
+					}
+				}
+			}
+		}
+	}
+}

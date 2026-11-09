@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.50",
+	"format_version": "1.21.120",
 	"minecraft:item": {
 		"description": {
 			"identifier": "who_craft:vortex_manipulator",
@@ -13,12 +13,10 @@
 			"minecraft:rarity": "uncommon",
 			"minecraft:hover_text_color": "yellow",
 			"minecraft:use_modifiers": {
-				"use_duration": 5,
-				"movement_modifier": 0.32
+				"emit_vibrations": true,
+				"use_duration": 0
 			},
-			"minecraft:custom_components": [
-				"who_craft:vortex_manipulator"
-			]
+			"who_craft:vortex_manipulator": {}
 		}
 	}
 }

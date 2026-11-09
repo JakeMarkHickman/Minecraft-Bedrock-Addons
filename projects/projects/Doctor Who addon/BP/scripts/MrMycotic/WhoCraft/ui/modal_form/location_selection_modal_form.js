@@ -60,7 +60,7 @@ function showLocationSelectionUi(player, entityToEffect, dimensionBlacklist) {
         iterations++;
     }
 
-    ui.dropdown("Dimension: ", availableDimensions, currentDimension);
+    ui.dropdown("Dimension: ", availableDimensions, { currentDimension });
 
     ui.show(player).then(formData => {
 

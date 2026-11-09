@@ -3,7 +3,7 @@
 	"name": "bridge",
 	"namespace": "bridge",
 	"authors": [],
-	"targetVersion": "1.21.90",
+	"targetVersion": "1.21.130",
 	"description": "",
 	"experimentalGameplay": {},
 	"bdsProject": false,

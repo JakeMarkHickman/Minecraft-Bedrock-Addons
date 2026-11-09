@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.120",
+	"minecraft:block": {
+		"description": {
+			"identifier": "echos_of_gallifrey:cave_game_cobblestone",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"tag:stone": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:map_color": "#69696a"
+		}
+	}
+}

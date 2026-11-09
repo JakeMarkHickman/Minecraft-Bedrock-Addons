@@ -1,0 +1,20 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Echoes of Gallifrey",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"echos_of_gallifrey_cave_game_grass": {
+			"textures": "textures/blocks/mrmycotic/echos_of_gallifrey/cave_game/cave_game_grass"
+		},
+		"echos_of_gallifrey_cave_game_cobblestone": {
+			"textures": "textures/blocks/mrmycotic/echos_of_gallifrey/cave_game/cave_game_cobblestone"
+		},
+		"echos_of_gallifrey_cave_game_planks": {
+			"textures": "textures/blocks/mrmycotic/echos_of_gallifrey/cave_game/cave_game_planks"
+		},
+		"echos_of_gallifrey_tardis_exit_doors": {
+			"textures": "textures/blocks/tardis_exit_doors"
+		}
+	}
+}

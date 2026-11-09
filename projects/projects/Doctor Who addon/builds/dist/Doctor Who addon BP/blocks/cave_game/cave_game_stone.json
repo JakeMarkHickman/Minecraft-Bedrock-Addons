@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "who_craft:cave_game_stone",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.stone"
+			}
+		},
+		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:stone": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:map_color": "#707070"
+		}
+	}
+}
